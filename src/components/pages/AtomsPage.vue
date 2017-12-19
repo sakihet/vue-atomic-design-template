@@ -3,6 +3,11 @@
     <h1>{{ msg }}</h1>
     <h2>AppButton</h2>
     <AppButton label='Button' />
+    <h2>AppInput</h2>
+    <AppInput
+      type='text'
+      placeholder='Placeholder'
+    />
     <h2>AppLink</h2>
     <AppLink label='Index' path="/" />
     <h2>AppLogo</h2>
@@ -14,6 +19,7 @@
 
 <script>
 import AppButton from '../atoms/AppButton'
+import AppInput from '../atoms/AppInput'
 import AppLink from '../atoms/AppLink'
 import AppLogo from '../atoms/AppLogo'
 
@@ -26,6 +32,7 @@ export default {
   },
   components: {
     AppButton,
+    AppInput,
     AppLink,
     AppLogo
   }
