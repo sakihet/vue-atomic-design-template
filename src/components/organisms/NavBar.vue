@@ -4,11 +4,8 @@
       <AppLogo />
     </div>
     <div class="nav-bar-cell center">
-      <AppLink
-        v-for="link in links"
-        :key="link.name"
-        :label="link.label"
-        :path="link.path"
+      <HorizontalLinkList
+        :links="links"
       />
     </div>
     <div class="nav-bar-cell right">
@@ -20,6 +17,7 @@
 <script>
 import AppLink from '../atoms/AppLink'
 import AppLogo from '../atoms/AppLogo'
+import HorizontalLinkList from '../molecules/HorizontalLinkList'
 
 export default {
   name: 'NavBar',
@@ -43,7 +41,8 @@ export default {
   },
   components: {
     AppLink,
-    AppLogo
+    AppLogo,
+    HorizontalLinkList
   }
 }
 </script>

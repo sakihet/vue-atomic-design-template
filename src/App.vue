@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <NavBar />
-    <router-view/>
+    <router-view class="view" />
   </div>
 </template>
 
@@ -22,5 +22,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+}
+.view {
+  width: 60%;
+  margin: 0 auto 0 auto;
 }
 </style>
