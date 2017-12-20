@@ -4,6 +4,7 @@ import HelloWorld from '@/components/pages/HelloWorld'
 import IndexPage from '@/components/pages/IndexPage'
 import AtomsPage from '@/components/pages/AtomsPage'
 import MoleculesPage from '@/components/pages/MoleculesPage'
+import OrganismsPage from '@/components/pages/OrganismsPage'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/molecules',
       name: 'MoleculesPage',
       component: MoleculesPage
+    },
+    {
+      path: '/organisms',
+      name: 'OrganismsPage',
+      component: OrganismsPage
     },
     {
       path: '/hello',

@@ -35,6 +35,10 @@ export default {
         {
           path: '/molecules',
           label: 'Molecules'
+        },
+        {
+          path: '/organisms',
+          label: 'Organisms'
         }
       ]
     }

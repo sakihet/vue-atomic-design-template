@@ -24,7 +24,7 @@ export default {
   color: #2c3e50;
 }
 .view {
-  width: 60%;
+  width: 70%;
   margin: 0 auto 0 auto;
 }
 </style>
