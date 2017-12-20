@@ -9,7 +9,7 @@
       />
     </div>
     <div class="nav-bar-cell right">
-      ■
+      <a href="https://github.com/sakihet/vue-atomic-design-template">Github</a>
     </div>
   </div>
 </template>
