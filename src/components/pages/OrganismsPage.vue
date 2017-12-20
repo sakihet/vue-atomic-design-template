@@ -3,10 +3,13 @@
     <h1>{{ msg }}</h1>
     <h2>NavBar</h2>
     <NavBar />
+    <h2>AppFooter</h2>
+    <AppFooter />
   </div>
 </template>
 
 <script>
+import AppFooter from '../organisms/AppFooter'
 import NavBar from '../organisms/NavBar'
 
 export default {
@@ -31,6 +34,7 @@ export default {
     }
   },
   components: {
+    AppFooter,
     NavBar
   }
 }
