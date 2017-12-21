@@ -1,10 +1,15 @@
 # vue-atomic-design-template
 
-> A Vue.js project
+This is just a template project.
+Use free to build your own design template.
+
+## Contributing
+
+Component requests are welcome on github issues.
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
