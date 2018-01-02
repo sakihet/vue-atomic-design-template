@@ -14,6 +14,10 @@
     <AppLogo
       :label='foo'
     />
+    <h2>AppTag</h2>
+    <AppTag
+      label='Tag'
+    />
   </div>
 </template>
 
@@ -22,6 +26,7 @@ import AppButton from '../atoms/AppButton'
 import AppInput from '../atoms/AppInput'
 import AppLink from '../atoms/AppLink'
 import AppLogo from '../atoms/AppLogo'
+import AppTag from '../atoms/AppTag'
 
 export default {
   name: 'AtomsPage',
@@ -34,7 +39,8 @@ export default {
     AppButton,
     AppInput,
     AppLink,
-    AppLogo
+    AppLogo,
+    AppTag
   }
 }
 </script>
