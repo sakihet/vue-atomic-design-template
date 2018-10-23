@@ -15,9 +15,7 @@
     <h2>CheckBox</h2>
     <AppCheckBox label='Check Box' />
     <h2>AppLogo</h2>
-    <AppLogo
-      :label='foo'
-    />
+    <AppLogo />
     <h2>AppTag</h2>
     <AppTag
       label='Tag'
