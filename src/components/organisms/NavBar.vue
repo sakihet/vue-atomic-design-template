@@ -57,16 +57,16 @@ export default {
   border-bottom: 1px solid #eee;
   display: flex;
 }
-.nav-bar-cell {
-  flex: 1;
-}
 .left {
   text-align: left;
+  flex: 1;
 }
 .center {
   text-align: center;
+  flex: 4;
 }
 .right {
   text-align: right;
+  flex: 1;
 }
 </style>
