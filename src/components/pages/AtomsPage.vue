@@ -3,10 +3,18 @@
     <h1>{{ msg }}</h1>
 
     <h2>AppButton</h2>
-    <AppButton label='Button' />
 
-    <h2>AppRoundButton</h2>
-    <AppRoundButton label='Round Button' />
+    <h3>Square</h3>
+    <AppButton
+      label='Button'
+      shape='square'
+    />
+
+    <h3>Round</h3>
+    <AppButton
+      label='Round Button'
+      shape='round'
+    />
 
     <h2>AppInput</h2>
     <AppInput
@@ -40,7 +48,6 @@
 
 <script>
 import AppButton from '../atoms/AppButton'
-import AppRoundButton from '../atoms/AppRoundButton'
 import AppInput from '../atoms/AppInput'
 import AppLink from '../atoms/AppLink'
 import AppCheckBox from '../atoms/AppCheckBox'
@@ -56,7 +63,6 @@ export default {
   },
   components: {
     AppButton,
-    AppRoundButton,
     AppInput,
     AppLink,
     AppCheckBox,

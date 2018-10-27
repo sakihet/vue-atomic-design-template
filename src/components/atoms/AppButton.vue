@@ -1,5 +1,9 @@
 <template>
-  <button class="app-button">{{ label }}</button>
+  <button
+    :class="shape"
+  >
+    {{ label }}
+  </button>
 </template>
 
 <script>
@@ -9,20 +13,35 @@ export default {
     return {}
   },
   props: {
-    label: String
+    label: String,
+    shape: {
+      type: String,
+      default: 'square'
+    }
   }
 }
 </script>
 
 <style scoped>
-.app-button {
+.square {
   color: #4fc08d;
   border-color: #4fc08d;
   padding: 0.5em;
   box-shadow: 0.5px 0.5px;
 }
-.app-button:hover {
+.square:hover {
   color: #ffffff;
   background-color: #4fc08d;
+}
+.round {
+  -webkit-appearance:none;
+  color: #ffffff;
+  background-color: #4fc08d;
+  font-weight:bold;
+  text-decoration:none;
+  text-align:center;
+  padding:6px 10px 6px 10px;
+  border-radius:20px;
+  border-color: #4fc08d; 
 }
 </style>
