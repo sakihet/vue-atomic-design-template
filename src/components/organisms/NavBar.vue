@@ -9,7 +9,11 @@
       />
     </div>
     <div class="nav-bar-cell right">
-      <a href="https://github.com/sakihet/vue-atomic-design-template">Github</a>
+      <AppLink
+        label="Github"
+        path="https://github.com/sakihet/vue-atomic-design-template"
+        isNewWindow='true'
+      />
     </div>
   </div>
 </template>
