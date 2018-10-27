@@ -1,4 +1,4 @@
 module.exports = {
-  baseUrl: 'vue-atomic-design-template',
-  outputDir: 'docs'
+  outputDir: 'docs',
+  assetsDir: 'vue-atomic-design-template'
 }
