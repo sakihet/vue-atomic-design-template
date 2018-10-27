@@ -6,6 +6,7 @@
     target="_blank"
   >
     {{ label }}
+    <font-awesome-icon icon="external-link-alt" />
   </a>
   <router-link
     v-else
