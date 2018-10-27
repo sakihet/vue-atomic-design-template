@@ -1,21 +1,36 @@
 <template>
   <div>
     <h1>{{ msg }}</h1>
+
     <h2>AppButton</h2>
     <AppButton label='Button' />
+
     <h2>AppRoundButton</h2>
     <AppRoundButton label='Round Button' />
+
     <h2>AppInput</h2>
     <AppInput
       type='text'
       placeholder='Placeholder'
     />
+
     <h2>AppLink</h2>
-    <AppLink label='Index' path="/" />
+    <AppLink
+      label='Index'
+      path="/"
+    />
+    <AppLink
+      label='Github'
+      path="https://github.com/"
+      isNewWindow='true'
+    />
+
     <h2>CheckBox</h2>
     <AppCheckBox label='Check Box' />
+
     <h2>AppLogo</h2>
     <AppLogo />
+
     <h2>AppTag</h2>
     <AppTag
       label='Tag'

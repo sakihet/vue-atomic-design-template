@@ -1,5 +1,11 @@
 <template>
-  <router-link class="app-link" :to="path">{{ label }}</router-link>
+  <router-link
+    class="app-link"
+    :to="path"
+    :target="isNewWindow ? '_blank' : '_self'"
+  >
+    {{ label }}
+  </router-link>
 </template>
 
 <script>
@@ -10,7 +16,11 @@ export default {
   },
   props: {
     label: String,
-    path: String
+    path: String,
+    isNewWindow: {
+      type: Boolean,
+      default: false
+    }
   }
 }
 </script>
