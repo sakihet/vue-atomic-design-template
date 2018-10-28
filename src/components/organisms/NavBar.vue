@@ -12,7 +12,7 @@
       <AppLink
         label="Github"
         path="https://github.com/sakihet/vue-atomic-design-template"
-        isNewWindow='true'
+        :isNewWindow='true'
       />
     </div>
   </div>

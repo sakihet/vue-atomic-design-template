@@ -30,7 +30,7 @@
     <AppLink
       label='Github'
       path="https://github.com/"
-      isNewWindow='true'
+      :isNewWindow='true'
     />
 
     <h2>CheckBox</h2>
