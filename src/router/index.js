@@ -9,6 +9,7 @@ import OrganismsPage from '@/components/pages/OrganismsPage'
 Vue.use(Router)
 
 export default new Router({
+  base: '/vue-atomic-design-template/',
   mode: 'history',
   routes: [
     {
