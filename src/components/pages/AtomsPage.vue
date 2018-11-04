@@ -2,6 +2,18 @@
   <div>
     <h1>{{ msg }}</h1>
 
+    <h2>AppParagraph</h2>
+    <AppParagraph
+      :content='paragraphText'
+      align='left'
+    />
+    <AppParagraph
+      :content='paragraphText'
+    />
+    <AppParagraph
+      :content='paragraphText'
+      align='right'
+    />
     <h2>AppButton</h2>
 
     <h3>Square</h3>
@@ -53,12 +65,14 @@ import AppLink from '../atoms/AppLink'
 import AppCheckBox from '../atoms/AppCheckBox'
 import AppLogo from '../atoms/AppLogo'
 import AppTag from '../atoms/AppTag'
+import AppParagraph from '../atoms/AppParagraph'
 
 export default {
   name: 'AtomsPage',
   data () {
     return {
-      msg: 'Atoms'
+      msg: 'Atoms',
+      paragraphText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     }
   },
   components: {
@@ -67,7 +81,8 @@ export default {
     AppLink,
     AppCheckBox,
     AppLogo,
-    AppTag
+    AppTag,
+    AppParagraph
   }
 }
 </script>
